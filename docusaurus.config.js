@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'My Site',
-	tagline: 'Dinosaurs are cool',
+	title: 'Shrimps Dev-Book',
+	tagline: 'A treasure trove of front-end technology',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -133,6 +133,11 @@ const config = {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
+			// docs: {
+			// 	sidebar: {
+			// 		hideable: true,
+			// 	},
+			// },
 		}),
 };
 
