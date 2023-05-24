@@ -7,19 +7,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'Shrimps Dev-Book',
-	tagline: 'A treasure trove of front-end technology',
-	favicon: 'img/favicon.ico',
+	// tagline: 'A treasure trove of front-end technology',
+	tagline: '✨ 汇集前端知识精华, 提升开发者的技术水平与职业竞争力 ✨ ',
 
 	// Set the production url of your site here
-	url: 'https://your-docusaurus-test-site.com',
+	url: 'https://docs.shrimps.top.com',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: '/',
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'facebook', // Usually your GitHub org/user name.
-	projectName: 'docusaurus', // Usually your repo name.
+	organizationName: 'Shrimpsss', // Usually your GitHub org/user name.
+	projectName: 'Dev-Book', // Usually your repo name.
 
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
@@ -64,7 +64,7 @@ const config = {
 			// Replace with your project's social card
 			image: 'img/docusaurus-social-card.jpg',
 			navbar: {
-				title: 'My Site',
+				title: '',
 				logo: {
 					alt: 'My Site Logo',
 					src: 'img/logo.svg',
@@ -74,24 +74,25 @@ const config = {
 						type: 'docSidebar',
 						sidebarId: 'tutorialSidebar',
 						position: 'left',
-						label: 'Tutorial',
+						label: '前端面试题',
 					},
-					{ to: '/blog', label: 'Blog', position: 'left' },
-					{
-						href: 'https://github.com/facebook/docusaurus',
-						label: 'GitHub',
-						position: 'right',
-					},
+					// {
+					// 	type: 'docSidebar',
+					// 	sidebarId: 'tsSidebar',
+					// 	position: 'left',
+					// 	label: 'Ts类型体操',
+					// },
+					{ to: '/blog', label: '博客', position: 'left' },
 				],
 			},
 			footer: {
-				style: 'dark',
+				style: 'light',
 				links: [
 					{
 						title: 'Docs',
 						items: [
 							{
-								label: 'Tutorial',
+								label: '前端面试题',
 								to: '/docs/intro',
 							},
 						],
@@ -107,61 +108,58 @@ const config = {
 								label: 'Discord',
 								href: 'https://discordapp.com/invite/docusaurus',
 							},
-							{
-								label: 'Twitter',
-								href: 'https://twitter.com/docusaurus',
-							},
 						],
 					},
 					{
 						title: 'More',
 						items: [
 							{
-								label: 'Blog',
-								to: '/blog',
+								href: 'https://shrimps.top',
+								// label: 'Self',
+								label: '关于我',
 							},
 							{
+								href: 'https://github.com/Code-Shrimpsss/Blog',
 								label: 'GitHub',
-								href: 'https://github.com/facebook/docusaurus',
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © 2022 - ${new Date().getFullYear()} Dev-Book, Inc. Built with Shrimpsss.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
-			algolia: {
-				// The application ID provided by Algolia
-				appId: 'YOUR_APP_ID',
+			// algolia: {
+			// 	// The application ID provided by Algolia
+			// 	appId: 'YOUR_APP_ID',
 
-				// Public API key: it is safe to commit it
-				apiKey: 'YOUR_SEARCH_API_KEY',
+			// 	// Public API key: it is safe to commit it
+			// 	apiKey: 'YOUR_SEARCH_API_KEY',
 
-				indexName: 'YOUR_INDEX_NAME',
+			// 	indexName: 'YOUR_INDEX_NAME',
 
-				// Optional: see doc section below
-				contextualSearch: true,
+			// 	// Optional: see doc section below
+			// 	contextualSearch: true,
 
-				// Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-				externalUrlRegex: 'external\\.com|domain\\.com',
+			// 	// Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+			// 	externalUrlRegex: 'external\\.com|domain\\.com',
 
-				// Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-				replaceSearchResultPathname: {
-					from: '/docs/', // or as RegExp: /\/docs\//
-					to: '/',
-				},
+			// 	// Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+			// 	replaceSearchResultPathname: {
+			// 		from: '/docs/', // or as RegExp: /\/docs\//
+			// 		to: '/',
+			// 	},
 
-				// Optional: Algolia search parameters
-				searchParameters: {},
+			// 	// Optional: Algolia search parameters
+			// 	searchParameters: {},
 
-				// Optional: path for search page that enabled by default (`false` to disable it)
-				searchPagePath: 'search',
+			// 	// Optional: path for search page that enabled by default (`false` to disable it)
+			// 	searchPagePath: 'search',
 
-				//... other Algolia params
-			},
+			// 	//... other Algolia params
+			// },
 		}),
 };
 

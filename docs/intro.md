@@ -1,13 +1,14 @@
 ---
-description: JS 逻辑题手写记录。
-id: doc-js-write-tags
-title: JS 逻辑题记录
+description: JS 逻辑题手写
+id: intro
+title: JS 逻辑面试题
 tags:
     - JavaScript
     - Code
     - interviews
     - 前端面试
     - Front-end
+sidebar_position: 1
 ---
 
 ### ['1', '2', '3'].map(parseInt) 的结果是什么？
