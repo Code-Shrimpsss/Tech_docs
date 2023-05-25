@@ -2,12 +2,12 @@
 slug: welcome
 title: Welcome
 authors: shrimps
-tags: [mantaDao, info, frontend]
+# tags: [mantaDao, info, frontend]
 ---
 
 > Welcome, code boy who loves coding and is curious about new technologies 💻
 
-欢迎你，热爱编码且对新技术充满好奇心的码仔 💻
+欢迎你，热爱编程且对新技术充满好奇心的码仔 💻
 
 > This site mainly provides front-end knowledge output, front-end interview questions, business thinking and technical knowledge in the Web3 field. I usually record some thoughts that are not limited to technology, I hope it can help you!
 
